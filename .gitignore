@@ -1,0 +1,65 @@
+# ⚠️ Archivos de configuración sensibles
+.env
+
+# 🚀 Archivos de entorno virtual
+venv/
+venv*/         # En caso de nombres diferentes
+*.pyc
+__pycache__/
+
+# 🔍 Archivos de logs y bases de datos locales
+logs/
+*.log
+*.sqlite3
+
+# 📊 Caché de Jupyter Notebook (si se usa)
+.ipynb_checkpoints/
+
+# 📦 Dependencias de Python
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# 🔍 Archivos de depuración de VSCode/PyCharm
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🌍 Archivos de navegador
+*.DS_Store
+*.bak
+*.tmp
+
+# 🚀 Node.js (por si se usa frontend con NPM)
+node_modules/
+package-lock.json
+yarn.lock
+
+# 📊 Archivos de Power BI
+*.pbix
+*.pbit
+
+# 📂 Carpeta estática (si se generan archivos dinámicos)
+static/uploads/
+static/tmp/
+
+# 🔐 Claves SSH y archivos sensibles
+*.pem
+*.crt
+*.key
+
+# 🏗️ Archivos temporales de Flask y MySQL
+instance/
+migrations/
+db.sqlite3
+
+# ⚙️ Docker y CI/CD (si se usa)
+docker-compose.yml
+.Dockerfile
+.github/
+.gitlab-ci.yml
+
+# 📁 Archivos de caché de Flask
+*.session
+.cache/
